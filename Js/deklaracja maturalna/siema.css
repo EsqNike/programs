@@ -1,0 +1,44 @@
+	body {
+	background-color: #4267B2;
+	}
+	
+	#caly{
+		width: 80%;
+		margin: auto;
+	}
+	#naglowek{
+		background-color:#FFFFCC;
+		font-size:48px;
+		color:#003366;
+		text-align:center;
+		padding-top:15px;
+		width:80%;
+		float:left;
+		height:60px;
+	}
+	
+	#deklar{
+		background-color:#FFCC66;
+		width:80%;
+		float:left;
+
+	}
+	#podsum{
+		background-color:#FFFFCC;
+		width:80%;
+	}
+	
+	#stopka{
+		width:80%;
+		text-align:center;
+		font-weight:bold;
+		color:white;
+		font-size:30px;
+		clear:both;
+	}
+	
+	.blad {
+	border: 2px solid red;	
+	}
+		
+	

@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="remont.css">
+<title>Wyremontuj mieszkanie</title>
+
+<script type="text/javascript">
+function oblicz() {
+var w1=document.getElementById("wym1").value;
+var w2=document.getElementById("wym2").value;
+//if () {
+if ((w1=="" || w2=="") || (isNaN(w1) || isNaN(w2))		)  {
+alert("Błąd danych");
+}
+else {
+
+var pow=2*w1*2.7+2*w2*2.7;
+var koszt=pow*8;
+document.getElementById("wyniki").innerHTML="<p>Powierzchnia całkowita ścian: "+pow+"</p><p>Koszt malowania: "+koszt+"</p>";
+}
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div id="box">
+	<div id="baner"><img src="krolik.png" width="500" height="150"></div>
+	<div id="menu1"><a href="index.html">O NAS</a></div>
+	<div id="menu2"><a href="kontakt.html">KONTAKT</a></div>
+	<div id="menu3"><a href="kalkulator.html">KALKULATOR</a></div>
+	<div id="menu4"><a href="http://www.jakremontowac.pl" target="_blank">POLECANE STRONY</a></div>
+	<div id="main">
+		<h1>Malowanie pokoju: 8 zł za m<sup>2</sup></h1>
+		
+		<form>
+		Wymiary pokoju w metrach 
+		<input type="text" id="wym1">
+		<input type="text" id="wym2">
+		</br>
+		<p><input type="button" value="Oblicz koszt" onclick="oblicz()" id="przycisk"></p>
+		</form>
+		<span id="wyniki">Tu będą wyświetlane wyniki</span>
+		
+	</div>
+	<div id="stopka"><p>Autor strony: 12345678901</p></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+margin: 0px;
+padding: 0px;
+}
+
+#pudelko {
+	width:100%;
+}
+
+#gora {
+	background-color: #63b03c;
+	height: 150px;
+}
+
+#lewy {
+	width:20%;
+	height:550px;
+	background-color: #00CCFF;
+	float: left;
+}
+
+#prawy {
+	width:20%;
+	height:550px;
+	background-color: #00CCFF;
+	float: right;
+}
+
+#glowny {
+	float: left;
+	width: 60%;
+}
+
+#stopka {
+	background-color: #63b03c;	
+	height: 100px;
+	font-variant: small-caps;
+	clear: both;
+}
+
+#gora h1,h2,h3 {
+text-align: center;
+color: white;
+margin-top: 0px;	
+}
+
+#lewy h1 {
+color: white;
+text-transform: uppercase;	
+}
+
+#lewy ul {
+list-style-type: circle;	
+}
+
+#prawy h2 {
+	color: maroon;
+}
+
+div#PogodaNetWidget {
+	margin-left: 40px;
+}
+
+.PogodaNetWidget_Title {
+color: red;	
+}
+
+.PogodaNetWidget_Day {
+color: green;
+}
+
+
+
+
+
+
+

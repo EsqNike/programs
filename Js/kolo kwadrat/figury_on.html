@@ -1,0 +1,100 @@
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Figury geometryczne</title>
+
+<style type="text/css">
+#menu {
+width: 20%;
+height: 500px;
+}
+#main {
+width: 80%;
+}
+#header, #menu, #footer {
+background-color: #63b03c;
+color: white;
+}
+a {
+color: white;	
+}
+#header {
+font-family: Arial;
+font-size: 300%;
+font-variant: small-caps;
+}
+#header, #footer {
+text-align: center;
+}
+#menu ul {
+list-style-type: square;
+}
+#menu, #main {
+float: left;
+}
+#main {
+height: 500px;
+}
+#footer {
+clear: both;
+}
+
+</style>
+
+<script type="text/javascript">	
+	function onkw() {
+	document.getElementById("kw2").style.display="block";
+	}
+	function outkw() {
+	document.getElementById("kw2").style.display="none";
+	}
+	
+	function onko() {
+	document.getElementById("ko2").style.display="block";
+	}
+	function outko() {
+	document.getElementById("ko2").style.display="none";
+	}
+</script>
+
+</head>
+
+<body>
+<div id="box">
+	<div id="header"><a href="2_figury.html">FIGURY GEOMETRYCZNE I MATEMATYCY</a></div>
+	<div id="menu">
+	<h3>WYBIERZ FIGURĘ</h3>
+		<ol>
+		<li><a href="2_kwadrat.html">KWADRAT</a></li>
+			<ul>
+				<li>obwód</li>
+				<li>pole</li>
+			</ul>
+		<li><a href="2_kolo.html">KOŁO</a></li>
+			<ul>
+				<li>obwód</li>
+				<li>pole</li>
+			</ul>
+		</ol>
+		</br>
+		<h3><a href="baza.accdb">BAZA DANYCH</a></h3>
+	
+	</div>
+	<div id="main">
+	
+	<h1>Figury geometryczne</h1>
+		<span id="kw" onMouseOver="onkw()" onMouseOut="outkw()">KWADRAT</span>
+		<span id="ko" onMouseOver="onko()" onMouseOut="outko()">KOŁO</span>
+		<div id="kw2" style="display: none"><img src="kwadrat.png"></div>
+		<div id="ko2" style="display: none"><img src="kolo.png"></div>
+	
+	
+	</div>
+	<div id="footer">Strona stworzona przez 12345678901</div>
+
+
+</div>
+</body>
+</html>

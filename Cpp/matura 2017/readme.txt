@@ -1,0 +1,3 @@
+Zadanie opiera³o siê na siatce 200x320 liczb o wartoœciach z zakresu od 0 do 255
+siatkê nale¿a³o traktowaæ jako obraz o rozdzielczoœci 200x320, liczby jako pojednycze piksele, a ich wartoœci jako jasnoœæ poszczególnych pikseli.
+Zadania sprowadza³y siê do podania wartoœci najjaœniejszego i najciemniejszego piksela, wyliczeniu ile wierszy nale¿y usun¹æ aby obraz mia³ pionow¹ oœ symetrii (oœ symetrii by³a dyktowana tym, czy jasnoœci pikseli by³y sobie lustrzane po obu stronach) oraz wyliczenie liczby kontrastuj¹cych pikseli (kontrastuj¹ce to takie, które s¹ sobie s¹siednie i ich wartoœci ró¿ni¹ siê od siebie o wiêcej ni¿ 128).

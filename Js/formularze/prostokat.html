@@ -1,0 +1,78 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<style>
+
+</style>
+<script type="text/javascript"> 
+function licz(formularz) {
+if (formularz.a.value==""|formularz.b.value=="")
+alert("Wprowadź dane");
+else {
+	aa=formularz.a.value;
+	bb=formularz.b.value;
+	formularz.p.value=aa*bb;
+	formularz.o.value=2*aa+2*bb;
+	}
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="pudelko">
+	<div id="gora">
+		<h1>Fajna strona klasy Heheszek</h1>
+		<h2>przykłady JavaScript</h2>
+		<h3>klasa IIITI - 2015/2016</h3>
+	</div>
+	
+	<div id="lewy">
+		<h1>menu</h1>
+		<ul>
+			<li><a href="prostokat.html">prostokąt</a></li>
+			<li><a href="spalanie.html">spalanie</a></li>
+		</ul>
+		
+	</div>
+	<div id="glowny">
+		<h1>Formularz do obliczania obwodu i pola prostokąta</h1>
+		<form name="formularz1" action="">
+		Podaj bok a: <input type="text" name="a"></br>
+		Podaj bok b: <input type="text" name="b"></br></br>
+		<input type="button" value="Oblicz" onClick="licz(this.form)">
+		</br></br>
+		Pole prostokąta ab: <input type="text" name="p"></br>
+		Obwód prostokąta ab: <input type="text" name="o"></br></br>
+		</form>
+	</div>
+	<div id="prawy">
+		<h2>Pogodynka</h2>
+			<div id="PogodaNetWidget" style="width:200px">
+			<a href="http://pogoda.net" rel="nofollow">pogoda.net</a>
+			</div>
+			<script type="text/javascript" charset="utf-8" src="http://pogoda.net/widgets/js_v2?format=vertical&width=200&limit=3&pid=906" async="async"></script>
+
+		
+	
+	</div>
+	<div id="stopka">
+		<script type="text/javascript">
+		document.write("Ostatnia modyfikacja strony:<i>"+document.lastModified+"</i>");
+		</script>
+	</div>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+

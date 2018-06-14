@@ -1,0 +1,70 @@
+﻿<html>
+<head>
+	<title>4TI</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+	function KlasaOver1(){
+	document.getElementById('btn1').className="btn-over";
+	}	
+	function KlasaOut1(){
+	document.getElementById('btn1').className="btn-default";
+	}
+	//btn2
+	function KlasaOver2(){
+	document.getElementById('btn2').className="btn-over";
+	}	
+	function KlasaOut2(){
+	document.getElementById('btn2').className="btn-default";
+	}
+	//btn3
+	function KlasaOver3(){
+	document.getElementById('btn3').className="btn-over";
+	}
+	
+	function KlasaOut3(){
+	document.getElementById('btn3').className="btn-default";
+	}
+	
+	function ZamienLepsze(){
+	var rob=document.getElementById('ida').value;
+	document.getElementById('ida').value=document.getElementById('idb').value;
+	document.getElementById('idb').value=rob;
+	
+	//span
+	document.getElementById('idspan').innerHTML=document.
+	getElementById('ida').value+" "+document.getElementById('idb').value;
+	
+	
+	return true;
+}
+</script>
+	<link rel="stylesheet" type="text/css" href="kostek3.css">
+</head>
+<body>
+	<div id="caly">
+		<form action="mailto:aaa@gmail.com" method="POST">
+		Tekst A:<input type="text" id="ida" name="namea"></br>
+		Tekst B:<input type="text" id="idb" name="nameb"></br>
+		
+		
+			</br>
+			<input type="button" id="btn1" value="Zamień" 
+			onclick="ZamienLepsze()" onmouseover="KlasaOver1()" 
+			onmouseout="KlasaOut1()" class="btn-default">
+			
+			<input type="submit" value="Wyślij maila" class="btn-default" 
+			onmouseover="KlasaOver2()" 
+			id="btn2" onmouseout="KlasaOut2()">
+			
+			<input type="reset" value ="Wyczyść formularz" class="btn-default" 
+			onmouseover="KlasaOver3()" 
+			id="btn3" onmouseout="KlasaOut3()">
+		</form>
+		
+	<span id="idspan"></span>
+	
+	</div>
+	
+	
+</body>
+</html>

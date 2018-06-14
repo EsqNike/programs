@@ -1,0 +1,52 @@
+﻿<html>
+<head>
+<title>Tajna strona z obliczeniami</title>
+
+
+<script type="text/javascript"> 
+function licz(formularz) {
+if (formularz.a.value==""|formularz.b.value=="")
+alert("Wprowadź dane");
+else {
+	aa=formularz.a.value;
+	bb=formularz.b.value;
+	formularz.p.value=aa*bb;
+	formularz.o.value=2*aa+2*bb;
+	}
+}
+
+</script>
+
+</head>
+<body>
+<h1>Tajna strona dla hakerów</h1>
+
+<div style="width: 60%; border: 1px solid black; padding: 10px">
+<form name="formularz1" action="">
+Podaj bok a: <input type="text" name="a"></br>
+Podaj bok b: <input type="text" name="b"></br></br>
+<input type="button" value="Oblicz" onClick="licz(this.form)">
+</br></br>
+Pole prostokąta ab: <input type="text" name="p"></br>
+Obwód prostokąta ab: <input type="text" name="o"></br></br>
+</form>
+</div>
+
+<div style="width: 60%; border: 1px solid black; padding: 10px">
+<form name="formularz2" action="">
+Podaj liczbę km:<input type="text" name="km"></br>
+Podaj średnie spalanie auta:<input type="text" name="sp"></br>
+Podaj cenę za litr paliwa:<input type="text" name="pa"></br></br>
+<input type="button" value="Oblicz koszt podróży" onClick="spal(this.form)">
+</br></br>
+<hr>
+Tyle w podróży spalisz  paliwa:<input type="text" name="w_sp"></br>
+Koszt podróży to:<input type="text" name="w_ko"></br></br>
+</form>
+</div>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<script type="text/javascript" src="obsluga_formularzy1.js"></script>
+</head>
+
+<body bgcolor="#99CCFF">
+<i>Wykonaj w Java Script obsługę formularza zamówienia usług telekomunikacynych:</i><br><br><br>
+<center>
+<form method="post" name="zamowienie">
+<table width="80%">
+	<tr>
+		<td bgcolor="#FFFFCC">
+			<b>Nazwa firmy/Nazwisko i imię klienta:</b><br> <input type="text" name="nazwa" style="width: 95%"><br><br>
+			<b>Firma/Osoba prywatna:</b>
+			<input type="radio" name="rodzaj" value="Firma">Firma
+			<input type="radio" name="rodzaj" value="Osoba Prywatna">Osoba prywatna<br><br>
+			<b>Rok i miesiąc urodzenia/założenia firmy:</b>
+			<b>Rok:</b> <select name="rok" size="1">
+							<option>1995</option>
+							<option>1996</option>
+							<option>1996</option>
+							<option>1997</option>
+							<option>1998</option>
+							<option>1999</option>
+							<option>2000</option>
+						</select>
+			<b>Miesiąc:</b> <select name="mc" size="1">
+								<option>01</option>
+								<option>02</option>
+								<option>03</option>
+								<option>04</option>
+								<option>05</option>
+								<option>06</option>
+								<option>07</option>
+								<option>08</option>
+								<option>09</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
+							</select>	
+			<br><br>
+			
+			<b>Wybrany wariant usługi:</b><br>
+			<input type="checkbox" name="wariant" value="100" checked>&nbspPodstawowy 100zł&nbsp
+			<input type="checkbox" name="wariant" value="20">&nbspPakiet SMS 20zł&nbsp<br>
+			<input type="checkbox" name="wariant" value="30">&nbspPakiet danych 30zł&nbsp
+			<input type="checkbox" name="wariant" value="40">&nbspUbezpieczenie 40zł&nbsp<br><br>
+			
+			<b>Uwagi:</b>
+			<br><textarea name="uwagi" cols="50" rows="5" style="width: 95%"></textarea><br><br>
+		</td>
+		<td bgcolor="#FFCC66">
+			<b>PODSUMOWANIE:</b><br><br>
+			<b>Zamawiający:</b> <br><input type="text" name="podsuma" style="width: 95%"><br><br>
+			<b>Rodzaj:</b> <br><input type="text" name="podsuma" style="width: 95%"><br><br>
+			<b>Rok i miesiąc urodzenia:</b> <br><input type="text" name="podsuma" style="width: 95%"><br><br>
+			<b>Suma opłat za wybrane usługi:</b> <br><input type="text" name="podsuma" style="width: 80%">zł<br><br>
+			<b>Uwagi:</b> <br><input type="text" name="podsuma" style="width: 95%"><br><br>		
+		</td>
+	</tr>
+</table>	
+</form>
+<br><br><br>
+<button onclick="sprawdz()" style="width: 400px; height: 60px">Sprawdź wprowadzone dane</button>
+</center>
+
+
+</body>
+</html>
