@@ -1,2 +1,2 @@
 #programy
-Tu s¹ moje proste kodziki
+Tu sa moje proste kodziki
