@@ -1,3 +1,4 @@
-	Zadanie polega³o na wykonywaniu operacji na podanych w pliku liczbach binarnych
-	Celowo by³y one d³ugie (do 250 cyfr) aby nie da³o siê ich zapamietaæ w zmiennych typu ca³kowitoliczbowego.
-	Nale¿a³o policzyæ ile liczb z podanych sk³ada siê z wiêkszej iloœci 0 ni¿ 1, podaæ iloœæ podzielnych przez 2 i przez 8 oraz numery wierszy liczb najwiêkszych i najmniejszych.
+	Zadanie polegaÅ‚o na wykonywaniu operacji na podanych w pliku liczbach binarnych
+	Celowo byÅ‚y one dÅ‚ugie (do 250 cyfr) aby nie daÅ‚o siÄ™ ich zapamietaÄ‡ w zmiennych typu caÅ‚kowitoliczbowego.
+	NaleÅ¼aÅ‚o policzyÄ‡ ile liczb z podanych skÅ‚ada siÄ™ z wiÄ™kszej iloÅ›ci 0 niÅ¼ 1, podaÄ‡ iloÅ›Ä‡ podzielnych przez 
+	2 i przez 8 oraz numery wierszy liczb najwiÄ™kszych i najmniejszych.
